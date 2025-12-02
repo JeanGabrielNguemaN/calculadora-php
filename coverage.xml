@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1764644479">
-  <project timestamp="1764644479">
+<coverage generated="1764671760">
+  <project timestamp="1764671760">
     <file name="C:\Users\mvojg\OneDrive\Documentos\GitHub\calculadora-php\src\Calculadora.php">
       <class name="Calculadora\Calculadora" namespace="global">
         <metrics complexity="5" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="13" coveredelements="13"/>
