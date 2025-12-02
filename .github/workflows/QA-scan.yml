@@ -24,7 +24,7 @@ jobs:
       - name: Instalar PHP e dependências do Composer
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2'
+          php-version: '8.4'
           coverage: xdebug   # ativa cobertura
           extensions: mbstring
 
@@ -33,7 +33,7 @@ jobs:
 
       - name: Rodar testes com cobertura
         run: |
-          vendor/bin/phpunit --coverage-clover coverage.xml
+          php vendor/bin/phpunit --coverage-clover coverage.xml
 
       - name: Sonar Scanner CLI
         uses: SonarSource/sonarqube-scan-action@v5
