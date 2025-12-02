@@ -1,7 +1,7 @@
 name: Full PHP Quality Analysis
 
 env:
-  PROJETO: CALCULADORA   # <--- visível para TODOS os jobs
+  PROJETO: CALCULADORA-PHP   # <--- visível para TODOS os jobs
 
 on:
   push:
