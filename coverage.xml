@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1764643803">
-  <project timestamp="1764643803">
+<coverage generated="1764644479">
+  <project timestamp="1764644479">
     <file name="C:\Users\mvojg\OneDrive\Documentos\GitHub\calculadora-php\src\Calculadora.php">
       <class name="Calculadora\Calculadora" namespace="global">
-        <metrics complexity="5" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="13" coveredelements="0"/>
+        <metrics complexity="5" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="13" coveredelements="13"/>
       </class>
-      <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="18" type="stmt" count="0"/>
-      <line num="19" type="stmt" count="0"/>
-      <line num="20" type="stmt" count="0"/>
-      <line num="21" type="stmt" count="0"/>
-      <line num="24" type="method" name="somar" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="25" type="stmt" count="0"/>
-      <line num="28" type="method" name="subtrair" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="29" type="stmt" count="0"/>
-      <line num="32" type="method" name="multiplicar" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="33" type="stmt" count="0"/>
-      <line num="36" type="method" name="dividir" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="37" type="stmt" count="0"/>
-      <metrics loc="40" ncloc="40" classes="1" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="13" coveredelements="0"/>
+      <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="18" type="stmt" count="5"/>
+      <line num="19" type="stmt" count="5"/>
+      <line num="20" type="stmt" count="5"/>
+      <line num="21" type="stmt" count="5"/>
+      <line num="24" type="method" name="somar" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="25" type="stmt" count="1"/>
+      <line num="28" type="method" name="subtrair" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <line num="32" type="method" name="multiplicar" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="33" type="stmt" count="1"/>
+      <line num="36" type="method" name="dividir" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="37" type="stmt" count="2"/>
+      <metrics loc="40" ncloc="40" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="13" coveredelements="13"/>
     </file>
     <file name="C:\Users\mvojg\OneDrive\Documentos\GitHub\calculadora-php\src\Operacoes\Dividir.php">
       <metrics loc="8" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
@@ -27,18 +27,18 @@
       <class name="Calculadora\Operacoes\Divisao" namespace="global">
         <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
       </class>
-      <line num="6" type="method" name="dividir" visibility="public" complexity="2" crap="2" count="4"/>
-      <line num="7" type="stmt" count="4"/>
-      <line num="8" type="stmt" count="1"/>
-      <line num="10" type="stmt" count="3"/>
+      <line num="6" type="method" name="dividir" visibility="public" complexity="2" crap="2" count="6"/>
+      <line num="7" type="stmt" count="6"/>
+      <line num="8" type="stmt" count="2"/>
+      <line num="10" type="stmt" count="4"/>
       <metrics loc="13" ncloc="13" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
     </file>
     <file name="C:\Users\mvojg\OneDrive\Documentos\GitHub\calculadora-php\src\Operacoes\Multiplicacao.php">
       <class name="Calculadora\Operacoes\Multiplicacao" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </class>
-      <line num="6" type="method" name="multiplicar" visibility="public" complexity="1" crap="1" count="4"/>
-      <line num="7" type="stmt" count="4"/>
+      <line num="6" type="method" name="multiplicar" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="7" type="stmt" count="5"/>
       <metrics loc="10" ncloc="10" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
     </file>
     <file name="C:\Users\mvojg\OneDrive\Documentos\GitHub\calculadora-php\src\Operacoes\Multiplicar.php">
@@ -48,8 +48,8 @@
       <class name="Calculadora\Operacoes\Soma" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </class>
-      <line num="6" type="method" name="somar" visibility="public" complexity="1" crap="1" count="3"/>
-      <line num="7" type="stmt" count="3"/>
+      <line num="6" type="method" name="somar" visibility="public" complexity="1" crap="1" count="4"/>
+      <line num="7" type="stmt" count="4"/>
       <metrics loc="10" ncloc="10" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
     </file>
     <file name="C:\Users\mvojg\OneDrive\Documentos\GitHub\calculadora-php\src\Operacoes\Somar.php">
@@ -57,15 +57,15 @@
     </file>
     <file name="C:\Users\mvojg\OneDrive\Documentos\GitHub\calculadora-php\src\Operacoes\Subtracao.php">
       <class name="Calculadora\Operacoes\Subtracao" namespace="global">
-        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </class>
-      <line num="6" type="method" name="subtrair" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="7" type="stmt" count="0"/>
-      <metrics loc="10" ncloc="10" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      <line num="6" type="method" name="subtrair" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="7" type="stmt" count="1"/>
+      <metrics loc="10" ncloc="10" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
     </file>
     <file name="C:\Users\mvojg\OneDrive\Documentos\GitHub\calculadora-php\src\Operacoes\Subtrair.php">
       <metrics loc="8" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <metrics files="9" loc="115" ncloc="115" classes="5" methods="9" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="5" elements="23" coveredelements="8"/>
+    <metrics files="9" loc="115" ncloc="115" classes="5" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="23" coveredelements="23"/>
   </project>
 </coverage>
